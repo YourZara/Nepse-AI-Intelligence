@@ -32,6 +32,7 @@ All three are authored and maintained by **Jagdish Sah**; development is agent-a
 
 | Deployment | Repository | What it serves |
 |---|---|---|
+| **[hub page (this site)](https://yourzara.github.io/Nepse-AI-Intelligence/)** | *this repo* | This index rendered as a website — deployment tiles, pipeline map, and a filterable card index of all 12 repositories |
 | **[floorsheet.vercel.app](https://floorsheet.vercel.app)** | [jagdishsah126/Floorsheet_Data](https://github.com/jagdishsah126/Floorsheet_Data) · [DayaSah/Floorsheet_cockroachlabs](https://github.com/DayaSah/Floorsheet_cockroachlabs) | The main NEPSE floorsheet intelligence terminal |
 | **[floorshet-visual.vercel.app](https://floorshet-visual.vercel.app)** | [DayaSah/Floorshet_Visual_By_retotal](https://github.com/DayaSah/Floorshet_Visual_By_retotal) | Full analytics dashboard — Smart Money Index, broker rankings, 2.6M+ transaction explorer, guide library |
 | **[mongodb-liart-iota.vercel.app](https://mongodb-liart-iota.vercel.app)** | [DayaSah/mongodb](https://github.com/DayaSah/mongodb) | Read-only REST API over the MongoDB trades store (`StockHoldingByTMS`) |

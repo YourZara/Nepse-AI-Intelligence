@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEPSE-AI-Intelligence — Central NEPSE Project Hub</title>
+  <meta name="description" content="Central index of NEPSE projects across jagdishsah126, Jagdishsah and DayaSah — floorsheet ingestion, storage backends, market analysis, and live dashboards.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3Crect%20width='3'%20height='6'%20y='10'%20fill='%2300e676'/%3E%3Crect%20x='5'%20width='3'%20height='10'%20y='6'%20fill='%2300e676'/%3E%3Crect%20x='10'%20width='3'%20height='13'%20y='3'%20fill='%2300e676'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="kicker">Central Hub · @YourZara</p>
+    <h1>NEPSE-AI-Intelligence</h1>
+    <p class="tagline">One system for the Nepal Stock Exchange — every repository, what it is for, and how the work connects.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="https://floorsheet.vercel.app" rel="noopener">Open Live Terminal↗</a>
+      <a class="btn" href="https://github.com/YourZara/Nepse-AI-Intelligence" rel="noopener">GitHub repo↗</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ LIVE DEPLOYMENTS ============ -->
+  <section id="deployments" aria-labelledby="deployments-title">
+    <h2 id="deployments-title">Live Deployments</h2>
+    <div class="deploy-grid">
+
+      <div class="deploy">
+        <a class="deploy-url" href="https://floorsheet.vercel.app" rel="noopener">floorsheet.vercel.app</a>
+        <p>Main floorsheet intelligence terminal — distributed ingestion, multi-day broker flow, reconciled integrity.</p>
+        <p class="deploy-src">→ <a href="https://github.com/jagdishsah126/Floorsheet_Data" rel="noopener">Floorsheet_Data</a> · <a href="https://github.com/DayaSah/Floorsheet_cockroachlabs" rel="noopener">Floorsheet_cockroachlabs</a></p>
+      </div>
+
+      <div class="deploy">
+        <a class="deploy-url" href="https://floorshet-visual.vercel.app" rel="noopener">floorshet-visual.vercel.app</a>
+        <p>Full analytics dashboard — Smart Money Index, all 101 brokers, 2.6M+ transaction explorer, guide library.</p>
+        <p class="deploy-src">→ <a href="https://github.com/DayaSah/Floorshet_Visual_By_retotal" rel="noopener">Floorshet_Visual_By_retotal</a></p>
+      </div>
+
+      <div class="deploy">
+        <a class="deploy-url" href="https://mongodb-liart-iota.vercel.app" rel="noopener">mongodb-liart-iota.vercel.app</a>
+        <p>Read-only REST API over the MongoDB trades store (<code>StockHoldingByTMS</code>).</p>
+        <p class="deploy-src">→ <a href="https://github.com/DayaSah/mongodb" rel="noopener">mongodb</a></p>
+      </div>
+
+      <div class="deploy">
+        <a class="deploy-url" href="https://jagdishsah126.github.io/nepse-floorsheet-archive-Visual/" rel="noopener">nepse-floorsheet-archive-Visual</a>
+        <p>GitHub Pages gallery — static visualization of the archived daily floorsheet CSVs.</p>
+        <p class="deploy-src">→ <a href="https://github.com/jagdishsah126/nepse-floorsheet-archive-Visual" rel="noopener">nepse-floorsheet-archive-Visual</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ PIPELINE ============ -->
+  <section id="pipeline" aria-labelledby="pipeline-title">
+    <h2 id="pipeline-title">The Pipeline</h2>
+    <div class="pipe-row">
+
+      <div class="stage stage-ingest">
+        <p class="stage-label">Ingest</p>
+        <ul>
+          <li><a href="https://github.com/jagdishsah126/nepse-floorsheet-archive" rel="noopener">nepse-floorsheet-archive</a></li>
+        </ul>
+      </div>
+
+      <div class="stage stage-store">
+        <p class="stage-label">Store</p>
+        <ul>
+          <li><a href="https://github.com/DayaSah/Floorsheet_cockroachlabs" rel="noopener">Floorsheet_cockroachlabs</a></li>
+          <li><a href="https://github.com/DayaSah/mongodb" rel="noopener">mongodb</a></li>
+          <li><a href="https://github.com/DayaSah/My_Nepse_Diary" rel="noopener">My_Nepse_Diary</a></li>
+        </ul>
+      </div>
+
+      <div class="stage stage-analyze">
+        <p class="stage-label">Analyze</p>
+        <ul>
+          <li><a href="https://github.com/DayaSah/Nepse_Data" rel="noopener">Nepse_Data</a></li>
+          <li><a href="https://github.com/Jagdishsah/Google_Colab" rel="noopener">Google_Colab</a></li>
+          <li><a href="https://github.com/Jagdishsah/Copy-Paste" rel="noopener">Copy-Paste</a></li>
+          <li><a href="https://github.com/Jagdishsah/TMS_Ledger" rel="noopener">TMS_Ledger</a></li>
+          <li><a href="https://github.com/Jagdishsah/TMS_Ledger_By_ChatGpt_Codex" rel="noopener">TMS_Ledger_By_ChatGpt_Codex</a></li>
+        </ul>
+      </div>
+
+      <div class="stage stage-visualize">
+        <p class="stage-label">Visualize</p>
+        <ul>
+          <li><a href="https://github.com/jagdishsah126/Floorsheet_Data" rel="noopener">Floorsheet_Data</a></li>
+          <li><a href="https://github.com/jagdishsah126/nepse-floorsheet-archive-Visual" rel="noopener">…-archive-Visual</a></li>
+          <li><a href="https://github.com/DayaSah/Floorshet_Visual_By_retotal" rel="noopener">Floorshet_Visual_By_retotal</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ REPOSITORY INDEX ============ -->
+  <section id="repos" aria-labelledby="repos-title">
+    <h2 id="repos-title">Repository Index</h2>
+    <noscript><p class="noscript">JavaScript is off — filter buttons are disabled and the full list is shown.</p></noscript>
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search 12 repositories…" aria-label="Search repositories">
+      <div class="chip-row" id="chips">
+        <button class="chip-btn active" data-kind="layer" data-filter="all">All layers 12</button>
+        <button class="chip-btn" data-kind="layer" data-filter="ingest">Ingest 1</button>
+        <button class="chip-btn" data-kind="layer" data-filter="store">Storage 3</button>
+        <button class="chip-btn" data-kind="layer" data-filter="analyze">Analyze 5</button>
+        <button class="chip-btn" data-kind="layer" data-filter="visualize">Visualize 3</button>
+        <span class="chip-sep" aria-hidden="true"></span>
+        <button class="chip-btn active" data-kind="account" data-filter="all">All accounts</button>
+        <button class="chip-btn" data-kind="account" data-filter="jagdishsah126">jagdishsah126 3</button>
+        <button class="chip-btn" data-kind="account" data-filter="Jagdishsah">Jagdishsah 4</button>
+        <button class="chip-btn" data-kind="account" data-filter="DayaSah">DayaSah 5</button>
+      </div>
+    </div>
+
+    <p id="count" class="count" aria-live="polite"></p>
+
+    <div class="cards" id="cards">
+
+      <article class="card flagship" id="card-floorsheet-data" data-account="jagdishsah126" data-layer="visualize">
+        <div class="card-top">
+          <span class="chip acc-j126">jagdishsah126</span>
+          <span class="chip layer-viz">⭐ Flagship · Visualize</span>
+        </div>
+        <h3><a href="https://github.com/jagdishsah126/Floorsheet_Data" rel="noopener">Floorsheet_Data</a></h3>
+        <p>Flagship suite — distributed ingestion, multi-day broker flow, and a fully reconciled integrity engine. Production release of the DayaSah experimental source.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@jagdishsah126</span></div>
+        <div class="card-actions">
+          <a class="mini" href="https://github.com/jagdishsah126/Floorsheet_Data" rel="noopener">Repo ↗</a>
+          <a class="mini live" href="https://floorsheet.vercel.app" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+
+      <article class="card" id="card-floorsheet-archive" data-account="jagdishsah126" data-layer="ingest">
+        <div class="card-top">
+          <span class="chip acc-j126">jagdishsah126</span>
+          <span class="chip layer-ingest">Ingest</span>
+        </div>
+        <h3><a href="https://github.com/jagdishsah126/nepse-floorsheet-archive" rel="noopener">nepse-floorsheet-archive</a></h3>
+        <p>Autonomous pipeline that scrapes the complete daily NEPSE transaction floorsheet into version-controlled CSV archives on a GitHub Actions schedule.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@jagdishsah126</span></div>
+        <div class="card-actions">
+          <a class="mini" href="https://github.com/jagdishsah126/nepse-floorsheet-archive" rel="noopener">Repo ↗</a>
+        </div>
+      </article>
+
+      <article class="card" id="card-archive-visual" data-account="jagdishsah126" data-layer="visualize">
+        <div class="card-top">
+          <span class="chip acc-j126">jagdishsah126</span>
+          <span class="chip layer-viz">Visualize</span>
+        </div>
+        <h3><a href="https://github.com/jagdishsah126/nepse-floorsheet-archive-Visual" rel="noopener">nepse-floorsheet-archive-Visual</a></h3>
+        <p>Visualization layer over the archive's data, rendered as a static gallery.</p>
+        <div class="card-meta"><span class="lang">JavaScript</span><span class="acc-name">@jagdishsah126</span></div>
+        <div class="card-actions">
+          <a class="mini" href="https://github.com/jagdishsah126/nepse-floorsheet-archive-Visual" rel="noopener">Repo ↗</a>
+          <a class="mini live" href="https://jagdishsah126.github.io/nepse-floorsheet-archive-Visual/" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+
+      <article class="card" id="card-tms-ledger" data-account="Jagdishsah" data-layer="analyze">
+        <div class="card-top">
+          <span class="chip acc-jag">Jagdishsah</span>
+          <span class="chip layer-ana">Analyze</span>
+        </div>
+        <h3><a href="https://github.com/Jagdishsah/TMS_Ledger" rel="noopener">TMS_Ledger</a></h3>
+        <p>Personal ledger of all money movement in his NEPSE TMS account — holdings and transaction masters plus stock analytics (Elliot Wave, ULHC).</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@Jagdishsah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/Jagdishsah/TMS_Ledger" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-tms-terminal" data-account="Jagdishsah" data-layer="analyze">
+        <div class="card-top">
+          <span class="chip acc-jag">Jagdishsah</span>
+          <span class="chip layer-ana">Analyze</span>
+        </div>
+        <h3><a href="https://github.com/Jagdishsah/TMS_Ledger_By_ChatGpt_Codex" rel="noopener">TMS_Ledger_By_ChatGpt_Codex</a></h3>
+        <p>Enterprise restructure of TMS_Ledger — the NEPSE Unified Intelligence Terminal: market predictor, signals, risk, and a terminal UI.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@Jagdishsah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/Jagdishsah/TMS_Ledger_By_ChatGpt_Codex" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-google-colab" data-account="Jagdishsah" data-layer="analyze">
+        <div class="card-top">
+          <span class="chip acc-jag">Jagdishsah</span>
+          <span class="chip layer-ana">Analyze</span>
+        </div>
+        <h3><a href="https://github.com/Jagdishsah/Google_Colab" rel="noopener">Google_Colab</a></h3>
+        <p>NEPSE data analysis carried out in Google Colab notebooks.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@Jagdishsah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/Jagdishsah/Google_Colab" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-copy-paste" data-account="Jagdishsah" data-layer="analyze">
+        <div class="card-top">
+          <span class="chip acc-jag">Jagdishsah</span>
+          <span class="chip layer-ana">Analyze</span>
+        </div>
+        <h3><a href="https://github.com/Jagdishsah/Copy-Paste" rel="noopener">Copy-Paste</a></h3>
+        <p>Market-data and TMS-data analysis experiments — the scratchpad that shaped the ledger workflows.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@Jagdishsah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/Jagdishsah/Copy-Paste" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-cockroach" data-account="DayaSah" data-layer="store">
+        <div class="card-top">
+          <span class="chip acc-ds">DayaSah</span>
+          <span class="chip layer-store">Storage</span>
+        </div>
+        <h3><a href="https://github.com/DayaSah/Floorsheet_cockroachlabs" rel="noopener">Floorsheet_cockroachlabs</a></h3>
+        <p>Primary R&amp;D source codebase of the flagship — ingestion into distributed CockroachDB storage.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@DayaSah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/DayaSah/Floorsheet_cockroachlabs" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-floorshet-visual" data-account="DayaSah" data-layer="visualize">
+        <div class="card-top">
+          <span class="chip acc-ds">DayaSah</span>
+          <span class="chip layer-viz">Visualize</span>
+        </div>
+        <h3><a href="https://github.com/DayaSah/Floorshet_Visual_By_retotal" rel="noopener">Floorshet_Visual_By_retotal</a></h3>
+        <p>Production dashboard — Smart Money Index, day-wise broker holdings (101 brokers), 2.6M+ transaction explorer with whale filters, and a complete guide library.</p>
+        <div class="card-meta"><span class="lang">React · Vite · Recharts</span><span class="acc-name">@DayaSah</span></div>
+        <div class="card-actions">
+          <a class="mini" href="https://github.com/DayaSah/Floorshet_Visual_By_retotal" rel="noopener">Repo ↗</a>
+          <a class="mini live" href="https://floorshet-visual.vercel.app" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+
+      <article class="card" id="card-nepse-data" data-account="DayaSah" data-layer="analyze">
+        <div class="card-top">
+          <span class="chip acc-ds">DayaSah</span>
+          <span class="chip layer-ana">Analyze</span>
+        </div>
+        <h3><a href="https://github.com/DayaSah/Nepse_Data" rel="noopener">Nepse_Data</a></h3>
+        <p>Analysis of NEPSE data through various public APIs.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@DayaSah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/DayaSah/Nepse_Data" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-diary" data-account="DayaSah" data-layer="store">
+        <div class="card-top">
+          <span class="chip acc-ds">DayaSah</span>
+          <span class="chip layer-store">Storage</span>
+        </div>
+        <h3><a href="https://github.com/DayaSah/My_Nepse_Diary" rel="noopener">My_Nepse_Diary</a></h3>
+        <p>Personal record of every NEPSE transaction and market activity, backed by Supabase.</p>
+        <div class="card-meta"><span class="lang">Python</span><span class="acc-name">@DayaSah</span></div>
+        <div class="card-actions"><a class="mini" href="https://github.com/DayaSah/My_Nepse_Diary" rel="noopener">Repo ↗</a></div>
+      </article>
+
+      <article class="card" id="card-mongodb" data-account="DayaSah" data-layer="store">
+        <div class="card-top">
+          <span class="chip acc-ds">DayaSah</span>
+          <span class="chip layer-store">Storage</span>
+        </div>
+        <h3><a href="https://github.com/DayaSah/mongodb" rel="noopener">mongodb</a></h3>
+        <p>Read-only Vercel serverless REST API over a MongoDB store of TMS holdings, queryable by stock, broker, and date range.</p>
+        <div class="card-meta"><span class="lang">JavaScript</span><span class="acc-name">@DayaSah</span></div>
+        <div class="card-actions">
+          <a class="mini" href="https://github.com/DayaSah/mongodb" rel="noopener">Repo ↗</a>
+          <a class="mini live" href="https://mongodb-liart-iota.vercel.app" rel="noopener">Live ↗</a>
+        </div>
+      </article>
+
+    </div>
+    <p id="empty" class="empty" hidden>No repositories match that filter.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Engineered by Jagdish Sah — <a href="https://github.com/jagdishsah126" rel="noopener">@jagdishsah126</a> · <a href="https://github.com/Jagdishsah" rel="noopener">@Jagdishsah</a> · <a href="https://github.com/DayaSah" rel="noopener">@DayaSah</a> — agent-assisted development via <a href="https://github.com/YourZara" rel="noopener">@YourZara</a></p>
+    <p class="muted">This repo holds links only; every project lives in its own repository.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
