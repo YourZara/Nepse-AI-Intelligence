@@ -20,7 +20,10 @@
       state[kind] = btn.dataset.filter;
       // keep only one active choice per chip group
       chips.forEach(function (b) {
-        if (b.dataset.kind === kind) b.classList.toggle("active", b === btn);
+        if (b.dataset.kind === kind) {
+          b.classList.toggle("active", b === btn);
+          b.setAttribute("aria-pressed", String(b === btn));
+        }
       });
       apply();
     });
